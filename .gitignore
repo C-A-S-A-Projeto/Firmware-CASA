@@ -1,0 +1,32 @@
+# Segredos e credenciais locais
+segredos.h
+secrets.h
+.env
+.env.*
+
+# Build Arduino / ESP32 / arduino-cli
+build/
+*.bin
+*.elf
+*.hex
+*.map
+*.o
+*.d
+*.a
+*.eep
+*.lst
+*.sym
+
+# PlatformIO / IDEs
+.pio/
+.vscode/
+.idea/
+*.code-workspace
+
+# Sistema operacional e temporarios
+.DS_Store
+Thumbs.db
+desktop.ini
+*.bak
+*.swp
+*~

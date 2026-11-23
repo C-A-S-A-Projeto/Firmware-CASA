@@ -1,0 +1,15 @@
+#pragma once
+
+// =====================================================================
+// CREDENCIAIS LOCAIS (NAO COMMITAR O ARQUIVO REAL `segredos.h`)
+// =====================================================================
+// 1. Copie este arquivo para `segredos.h` na mesma pasta do .ino
+// 2. Preencha os valores reais abaixo
+// 3. O arquivo `segredos.h` esta listado no .gitignore
+// =====================================================================
+
+// Chave de API Web do Firebase (Console Firebase > Configuracoes do projeto > Geral)
+#define FIREBASE_API_KEY "SUA_FIREBASE_WEB_API_KEY_AQUI"
+
+// Opcional: sobrescreve a URL padrao do Realtime Database definida no .ino
+// #define RTDB_URL "https://seu-projeto-default-rtdb.firebaseio.com"
